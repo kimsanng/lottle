@@ -107,7 +107,12 @@
 
 /* visual */
 @media screen and (max-width: 760px) {
-    
+    .gallery{
+        width: 100%;
+    }
+    .gallery .container {
+        width: 100%;
+    }
     .visual_story {
         padding: 2rem 3rem;
     }
@@ -215,6 +220,9 @@
 
 /*gallery*/
 @media screen and (max-width:1440px) {
+    .gallery{
+        width: 100%;
+    }
     .gallery .container {
         width: 100%;
     }
@@ -223,6 +231,7 @@
 @media screen and (max-width:1000px) {
     .gallery {
         height: 55rem;
+        width: 100%;
     }
     .gallery_txt1 {
         font-size: 1.2rem;

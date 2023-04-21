@@ -2,7 +2,7 @@
 @import url('notosanskr/NotoSansKR.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-
+body{overflow-x: hidden;}
 .wrap {
     position: relative;
     display: block;
@@ -296,7 +296,7 @@
 .contents_3 {
     background: url('../images/section_02.jpg') no-repeat center;
     background-size: cover;
-    height: 94rem;
+    height: 70rem;
     transform: translateX(-100%);
     opacity: 0;
     transition: transform 1.5s, opacity 0.2s;
@@ -312,7 +312,7 @@
 .contents_4 {
     background: url('../images/section_03.jpg') no-repeat center;
     background-size: cover;
-    height: 94rem;
+    height: 70rem;
     transform: translateX(100%);
     opacity: 0;
     transition: transform 1.5s, opacity 0.2s;
